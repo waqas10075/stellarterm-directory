@@ -37,8 +37,9 @@
                 "code": "USD",
                 "issuer": "GDUKMGUGDZQK6YHYA5Z6AY2G4XDSZPSZ3SW5UN3ARVMO6QSRDWP5YLEX",
                 "isCounterSelling": "true",
-                "withdraw": false,
-                "deposit": false
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
             }
         ]
     },
@@ -145,7 +146,10 @@
             {
                 "code": "EURT",
                 "issuer": "GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S",
-                "isCounterSelling": "true"
+                "isCounterSelling": "true",
+                "deposit": true,
+                "withdraw": true,
+                "sep24": true
             }
         ]
     },
@@ -505,6 +509,32 @@
         ]
     },
     {
+        "domain": "citron.cash",
+        "website": "https://citron.cash/",
+        "logo": "citron.cash",
+        "color": "#81540C",
+        "displayName": "Citron",
+        "assets": [
+            {
+                "code": "XCT",
+                "issuer": "GBOAYBE3NJKS4WPIVM2H5DVFIDYLAHHD2DAWYL5LLUVYF77M3JIVGCTR"
+            }
+        ]
+    },
+    {
+        "domain": "photon.center",
+        "website": "https://photon.center/",
+        "logo": "photon.center",
+        "color": "#DCECF4",
+        "displayName": "Photon center",
+        "assets": [
+            {
+                "code": "PHOTON",
+                "issuer": "GBUMIO5G77562NFZZVMKMAUQL3CCZOGTGTUP6PVVUS2BM7U2WSPHOTON"
+            }
+        ]
+    },
+    {
         "domain": "wirexapp.com",
         "website": "https://wirexapp.com/",
         "logo": "wirexapp.com",
@@ -544,41 +574,145 @@
         ]
     },
     {
-        "domain": "citron.cash",
-        "website": "https://citron.cash/",
-        "logo": "citron.cash",
-        "color": "#81540C",
-        "displayName": "Citron",
+        "domain": "smx.saldo.mx",
+        "website": "https://smx.saldo.mx/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Mexican pesos",
         "assets": [
             {
-                "code": "XCT",
-                "issuer": "GBOAYBE3NJKS4WPIVM2H5DVFIDYLAHHD2DAWYL5LLUVYF77M3JIVGCTR"
+                "code": "SMX",
+                "issuer": "GCDN3VGXZZRCKPG2UEUNR54QDVJRAYINMHBXIT4ZQUFCEQSFN2ZZFSMX",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
             }
         ]
     },
     {
-        "domain": "photon.center",
-        "website": "https://photon.center/",
-        "logo": "photon.center",
-        "color": "#DCECF4",
-        "displayName": "Photon center",
+        "domain": "stellaranchor.ntokens.com.br",
+        "website": "https://stellaranchor.ntokens.com.br/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Brazilian coin",
         "assets": [
             {
-                "code": "PHOTON",
-                "issuer": "GBUMIO5G77562NFZZVMKMAUQL3CCZOGTGTUP6PVVUS2BM7U2WSPHOTON"
+                "code": "BRL",
+                "issuer": "GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
             }
         ]
     },
     {
-        "domain": "lfe-token.com",
-        "website": "https://lfe-token.com/",
-        "logo": "lfe-token.com",
-        "color": "#924146",
-        "displayName": "London Football Exchange",
+        "domain": "arst.settle.network",
+        "website": "https://arst.settle.network/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Argentinean Pesos",
         "assets": [
             {
-                "code": "LFEC",
-                "issuer": "GAG6FS3CR64QJHLHJU7HNXUB4KBLXVDFQBDXM5LG22WOM7CA2ITJAVD2"
+                "code": "ARST",
+                "issuer": "GCSAZVWXZKWS4XS223M5F54H2B6XPIIXZZGP7KEAIU6YSL5HDRGCI3DG",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            }
+        ]
+    },
+    {
+        "domain": "stablecoincorp.com",
+        "website": "https://stablecoincorp.com/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "BTC",
+                "issuer": "GAC63S3QEA5TKKGPLSLGCUSAFASDNO44XDWDNGLPM6UZSBLXA7W47JGZ",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            },
+            {
+                "code": "ETH",
+                "issuer": "GAC63S3QEA5TKKGPLSLGCUSAFASDNO44XDWDNGLPM6UZSBLXA7W47JGZ",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            }
+        ]
+    },
+    {
+        "domain": "stellar-anchor-server.herokuapp.com",
+        "website": "https://stellar-anchor-server.herokuapp.com/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "SRT",
+                "issuer": "GCDNJUBQSX7AJWLJACMJ7I4BC3Z47BQUTMHEICZLE6MU4KQBRYG5JY6B",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            }
+        ]
+    },
+    {
+        "domain": "www.anchormxn.com",
+        "website": "https://www.anchormxn.com/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "MXN",
+                "issuer": "GCKIK5F6J4KMKF6MKB5EM67S5CK557EZQ3IAMZM5FFAYST63S3HWXVPE",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            }
+        ]
+    },
+    {
+        "domain": "anchor.com.ar",
+        "website": "https://anchor.com.ar/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "ARS",
+                "issuer": "GCYE7C77EB5AWAA25R5XMWNI2EDOKTTFTTPZKM2SR5DI4B4WFD52DARS",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            }
+        ]
+    },
+    {
+        "domain": "www.dev.anchormxn.com",
+        "website": "https://www.dev.anchormxn.com/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "MXN",
+                "issuer": "GA75M2ZYCUDWMBMLHWOJQGTPMUZLMLRLJDCA3FIA3RD3HAI6NLE2YVZG",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
             }
         ]
     }
