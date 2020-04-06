@@ -44,6 +44,24 @@
         ]
     },
     {
+        "domain": "sandbox.anchorusd.com",
+        "website": "https://sandbox.anchorusd.com/",
+        "support": "support@anchorusd.com",
+        "logo": "anchorusd.com",
+        "color": "#00b4ce",
+        "displayName": "AnchorUSD",
+        "assets": [
+            {
+                "code": "USD",
+                "issuer": "GCKFBEIYV2U22IO2BJ4KVJOIP7XPWQGQFKKWXR6DOSJBV7STMAQSMTGG",
+                "isCounterSelling": "true",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
         "domain": "cryptotari.io",
         "website": "https://cryptotari.io",
         "logo": "cryptotari.io",
@@ -591,6 +609,40 @@
         ]
     },
     {
+        "domain": "test.saldo.mx",
+        "website": "https://test.saldo.mx/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Mexican pesos",
+        "assets": [
+            {
+                "code": "SMX",
+                "issuer": "GBXK4HMOMUA27BRDXM5AKVQI2VUZTN66FJOMMLTIHXBP5VUPCWXDSW7R",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            }
+        ]
+    },
+    {
+        "domain": "anchortestnet.ntokens.com.br",
+        "website": "https://anchortestnet.ntokens.com.br/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Brazilian coin",
+        "assets": [
+            {
+                "code": "BRL",
+                "issuer": "GCPBOYVAGYRUHT4APGTH6WDWV2EBMI5ZB7UCMVHJFPXS6YYKLDXL64L3",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            }
+        ]
+    },
+    {
         "domain": "stellaranchor.ntokens.com.br",
         "website": "https://stellaranchor.ntokens.com.br/",
         "support": "test@support.sep24",
@@ -625,6 +677,23 @@
         ]
     },
     {
+        "domain": "testnet-api.anchor.com.ar",
+        "website": "https://testnet-api.anchor.com.ar/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "ARST",
+                "issuer": "GDBJNMY5B6V5IUFNPVK22E3O2J37OGD22BWYBQKU44QFCT3QOJUQXKZV",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            }
+        ]
+    },
+    {
         "domain": "stablecoincorp.com",
         "website": "https://stablecoincorp.com/",
         "support": "test@support.sep24",
@@ -642,6 +711,23 @@
             {
                 "code": "ETH",
                 "issuer": "GAC63S3QEA5TKKGPLSLGCUSAFASDNO44XDWDNGLPM6UZSBLXA7W47JGZ",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            }
+        ]
+    },
+    {
+        "domain": "anchor.sandbox.stablecoincorp.com",
+        "website": "https://anchor.sandbox.stablecoincorp.com/",
+        "support": "test@support.sep24",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "ETH",
+                "issuer": "GBNJEPBSAFAZHUJGI3VLLSWHRL5SXODP4MAQ3TBMG6RQIZVYSTC4PTDK",
                 "sep24": true,
                 "withdraw": true,
                 "deposit": true
