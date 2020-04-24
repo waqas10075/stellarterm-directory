@@ -694,8 +694,8 @@
         ]
     },
     {
-        "domain": "stablecoincorp.com",
-        "website": "https://stablecoincorp.com/",
+        "domain": "www.xcm.com",
+        "website": "https://www.xcm.com/",
         "support": "test@support.sep24",
         "logo": "atlantisblue.org",
         "color": "#52ADC8",
@@ -710,6 +710,13 @@
             },
             {
                 "code": "ETH",
+                "issuer": "GAC63S3QEA5TKKGPLSLGCUSAFASDNO44XDWDNGLPM6UZSBLXA7W47JGZ",
+                "sep24": true,
+                "withdraw": true,
+                "deposit": true
+            },
+            {
+                "code": "CAD",
                 "issuer": "GAC63S3QEA5TKKGPLSLGCUSAFASDNO44XDWDNGLPM6UZSBLXA7W47JGZ",
                 "sep24": true,
                 "withdraw": true,
